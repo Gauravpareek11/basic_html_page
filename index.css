@@ -23,6 +23,7 @@
 }
 .hamburger-icon{
     display: none;
+    font-size: 2rem;
 }
 .nav-menu li a{
     color: black;
