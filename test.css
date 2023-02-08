@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.4rem;
+}
+#logo{
+     width:5vw;
+     z-index: 2;
+}
+.nav-menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style-type: none;
+}
+#checkbox-btn{
+    display: none;
+}
+.hamburger-icon{
+    display: none;
+}
+.nav-menu li a{
+    color: black;
+    text-decoration: none;
+    padding: 3rem;
+}
+.nav-menu li a:hover{
+    color: white;
+    background-color: black;
+}
+#banner{
+    width: 100%;
+}
+.banner-container{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.banner-text h1{
+    margin: 1vw;
+    font-size: 5vw;
+}
+.banner-text p{
+    font-size: 2vw;
+    margin: 1vw;
+}
+.availability-btn{
+    border: none;
+    background-color: gray;
+    font-size: 4vw;
+    margin: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    cursor: pointer;
+}
+.availability-btn:hover{
+    background-color: white;
+}
+.hotel-history{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+#history-image{
+    width: 50%;
+}
+.history-details{
+    background-color: black;
+    width: 50%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.history-details h2{
+    color: white;
+    font-size: 3rem;
+}
+.history-details h2:nth-of-type(2){
+    color: gray;
+}
+.history-details p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-top: 1.5rem;
+}
+#best-room-heading{
+ text-align: center;
+}
+.best-rooms{
+    display: flex;
+     margin: 1rem;
+     justify-content: space-between;
+}
+.best-rooms-1{
+    margin: 1rem;
+    box-shadow: 5px 5px 3px rgb(136, 135, 135);
+}
+.best-rooms-1 img{
+    width: 100%;
+}
+.best-rooms-1 h2{
+    padding: 0.5rem;
+}
+.best-rooms-1 p{
+    padding: 0.5rem;
+}
+.best-rooms-1 h4{
+    float: right;
+    margin: 1rem;
+    padding: 0.5rem;
+    color: gray;
+}
+.book-now-button{
+    background-color: rgb(32, 32, 32);
+    border:none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+.book-now-button:hover{
+    background-color:black;
+}
+
+.room-container{
+    display: flex;
+    flex-direction: column;
+}
+.rooms{
+    margin:1em;
+    display: flex;
+}
+.room-image{
+    position:relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+    flex-basis: 0;
+    box-shadow: 5px 5px 3px rgb(136, 135, 135);
+}
+.room-image img{
+    width: 100%;
+}
+.room-text{
+    position: absolute;
+    bottom: 0.6vw;
+    right: 1vw;
+}
+.contact-us-container{
+    background-color: gray;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+#email{
+    padding: 1rem;
+}
+.submit{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+
+@media(max-width:650px){
+    .hamburger-icon{
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: white;
+        text-align: center;
+        z-index: 1;
+    }
+    .nav-menu li{
+        margin: 1rem;
+    }
+    .nav-menu li a{
+        padding: 0.5rem;
+    }
+    #checkbox-btn:checked ~ .nav-menu{
+        display: block;
+    }
+    .hotel-history{
+        flex-direction: column;
+    }
+    #history-image{
+        width: auto;
+    }
+    .history-details{
+        width: auto;
+    }
+    .best-rooms{
+        flex-direction: column;
+        width: auto;
+    }
+    .rooms{
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .contact-us-container{
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .phone{
+        margin: 0.5rem;
+    }
+    .follow-us{
+        margin: 0.5rem;
+    }
+    .subscribe{
+        margin: 0.5rem;
+    }
+}
