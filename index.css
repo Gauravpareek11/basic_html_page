@@ -290,10 +290,12 @@
         right: 0;
         background-color: white;
         text-align: center;
+        font-size: 3rem;
+        padding: 2rem;
         z-index: 1;
     }
     .nav-menu li{
-        margin: 1rem;
+        margin: 3rem;
     }
     .nav-menu li a{
         padding: 0.5rem;
