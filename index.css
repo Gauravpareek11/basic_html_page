@@ -152,7 +152,7 @@ header{
 .best-rooms-1 img{
     width: 100%;
 }
-.best-rooms-1 h2{
+.best-rooms-1 h3{
     font-size: 2rem;
     margin: 1rem;
 }
@@ -161,11 +161,12 @@ header{
     margin: 1rem;
     margin-bottom: 0.25rem;
 }
-.best-rooms-1 h4{
+.small-room-price{
     font-size: 1.5rem;
     float: right;
     margin: 1rem;
     /* padding: 1rem; */
+    font-weight: bold;
     color: gray;
 }
 .book-now-button{
@@ -206,11 +207,12 @@ header{
     width: 100%;
     box-shadow: 5px 5px 3px rgb(136, 135, 135);
 }
-.room-text{
+.room-price{
     position: absolute;
     bottom: 0.6vw;
     right: 1vw;
     font-size: 2vw;
+    font-weight: bold;
 }
 .contact-us-container{
     background-color:hsl(42deg 8% 53%);
@@ -223,7 +225,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
 }
-.phone h2{
+.phone span{
     font-size: 2rem;
 }
 .icons{
@@ -231,7 +233,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
 }
-.icons h2{
+.icons span{
     font-size: 2rem;
 }
 .subscribe{
@@ -239,7 +241,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
 }
-.subscribe h2{
+.subscribe span{
     font-size: 2rem;
 }
 .social-media-btns{
@@ -268,6 +270,15 @@ header{
     background-color: white;
     color: black;
 }
+.phone-no-heading{
+    font-weight: bold;
+}
+.follow-us{
+    font-weight: bold;
+}
+.subscribe-us{
+    font-weight: bold;
+}
 footer{
     /* text-align: center; */
     color: white;
@@ -278,88 +289,3 @@ footer{
     align-items: center;
     justify-content: center;
 }
-/* @media(max-width:650px){
-    html{
-        font-size: 8px;
-    }
-    .hamburger-icon{
-        display: block;
-    }
-    #logo img{
-        width: 10vw;
-    }
-    .nav-menu{
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        right: 0;
-        background-color: white;
-        text-align: center;
-        font-size: 3rem;
-        padding: 2rem;
-        transform: translateY(-200%);
-        z-index: 1;
-        transition: all 200ms ease-in-out;
-    }
-    .nav-menu li{
-        margin: 3rem;
-    }
-    .nav-menu li a{
-        padding: 0.5rem;
-    }
-    #checkbox-btn:checked ~ .nav-menu{
-        transform: translateY(0);
-    }
-
-    .banner-text h2{
-        font-size: 7vw;
-    }
-    .banner-text p{
-        font-size: 3vw;
-    }
-    .hotel-history{
-        flex-direction: column;
-    }
-    #history-image{
-        width: auto;
-    }
-    .history-details{
-        width: auto;
-    }
-    .history-details h2{
-        font-size: 7vw;
-    }
-    .history-details p{
-        font-size: 6vw;
-        line-height: 7vw;
-    }
-    .best-rooms{
-        flex-direction: column;
-        width: auto;
-    }
-    .rooms{
-        flex-direction: column;
-        width: auto;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
-    .room-text{
-        font-size: 5vw;
-    }
-    .contact-us-container{
-        flex-direction: column;
-        width: auto;
-        align-items: center;
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .phone{
-        margin: 0.5rem;
-    }
-    .icons{
-        margin: 0.5rem;
-    }
-    .subscribe{
-        margin: 0.5rem;
-    }
-} */
