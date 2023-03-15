@@ -1,144 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="responsive.css">
-  <link href='https://fonts.googleapis.com/css?family=Open%20Sans' rel='stylesheet'>
-  <title>Hotels</title>
-</head>
-
-<body>
-  <header>
-    <div id="logo">
-      <img src="assets/logo.png" alt="logo">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open%20Sans"
+      rel="stylesheet"
+    />
+    <title>Hotels</title>
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <header>
+        <div id="logo">
+          <img src="assets/logo.png" alt="logo" />
+        </div>
+        <nav>
+          <input type="checkbox" id="checkbox-btn" />
+          <label for="checkbox-btn" class="hamburger-icon">&#9776;</label>
+          <ul class="nav-menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Rooms">Rooms</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
     </div>
-    <nav>
-      <input type="checkbox" id="checkbox-btn">
-      <label for="checkbox-btn" class="hamburger-icon">&#9776;</label>
-      <ul class="nav-menu">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About</a></li>
-        <li><a href="#Rooms">Rooms</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section class="banner-container">
-      <img id="banner" src="assets/banner.png" alt="banner image">
-      <div class="banner-text">
-        <h2>W Hotel</h2>
-        <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
-        <button type="button" class="availability-btn">CHECK AVAILABILITY</button>
-      </div>
-    </section>
-
-    <section class="hotel-history">
-      <img id="history-image" src="assets/hotel-history.png" alt="hotel history image">
-      <div class="history-details">
-        <h2>Discover our</h2>
-        <h2>History</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ab dolorum dolor ipsa cumque eaque
-          modi? Eius atque eos magni laboriosam recusandae consectetur architecto voluptas!
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        </p>
-      </div>
-    </section>
-    <section class="best-rooms-container">
-      <h2 id="best-room-heading">Our Best Rooms</h2>
-      <div class="best-rooms">
-        <div class="best-rooms-1">
-          <img src="assets/room1.png" alt="best room image">
-          <h3>Small Room</h3>
-          <p>The Hotel Template additionally supplies visitors with laundry and ironing centers.</p>
-          <button class="book-now-button">Book Now</button>
-          <span class="small-room-price">$ 20</span>
+    <main>
+      <section class="banner-container">
+        <img id="banner" src="assets/banner.png" alt="banner image" />
+        <div class="banner-text">
+          <h2>W Hotel</h2>
+          <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</p>
+          <button type="button" class="availability-btn">
+            CHECK AVAILABILITY
+          </button>
         </div>
-        <div class="best-rooms-1">
-          <img src="assets/room1.png" alt="best room image">
-          <h3>Small Room</h3>
-          <p>The Hotel Template additionally supplies visitors with laundry and ironing centers.</p>
-          <button class="book-now-button">Book Now</button>
-          <span class="small-room-price">$ 20</span>
+      </section>
+      <section class="centre-container">
+        <section class="hotel-history">
+          <img
+            id="history-image"
+            src="assets/hotel-history.png"
+            alt="hotel history image"
+          />
+          <div class="history-details">
+            <h2>Discover our</h2>
+            <h2>History</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
+              ab dolorum dolor ipsa cumque eaque modi? Eius atque eos magni
+              laboriosam recusandae consectetur architecto voluptas! Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </section>
+        <section class="best-rooms-container">
+          <h2 id="best-room-heading">Our Best Rooms</h2>
+          <div class="best-rooms">
+            <div class="best-rooms-1">
+              <img src="assets/room1.png" alt="best room image" />
+              <h3>Small Room</h3>
+              <p>
+                The Hotel Template additionally supplies visitors with laundry
+                and ironing centers.
+              </p>
+              <button class="book-now-button">Book Now</button>
+              <span class="small-room-price">$ 20</span>
+            </div>
+            <div class="best-rooms-1">
+              <img src="assets/room1.png" alt="best room image" />
+              <h3>Small Room</h3>
+              <p>
+                The Hotel Template additionally supplies visitors with laundry
+                and ironing centers.
+              </p>
+              <button class="book-now-button">Book Now</button>
+              <span class="small-room-price">$ 20</span>
+            </div>
+          </div>
+          <div class="room-container">
+            <div class="rooms">
+              <div class="room-image">
+                <img src="assets/room2.png" alt="room images" />
+                <span class="room-price">$ 28</span>
+              </div>
+              <div class="room-image">
+                <img src="assets/room3.png" alt="room images" />
+                <span class="room-price">$ 10</span>
+              </div>
+              <div class="room-image">
+                <img src="assets/room2.png" alt="room images" />
+                <span class="room-price">$ 28</span>
+              </div>
+              <div class="room-image">
+                <img src="assets/room3.png" alt="room images" />
+                <span class="room-price">$ 10</span>
+              </div>
+            </div>
+            <div class="rooms">
+              <div class="room-image">
+                <img src="assets/room4.png" alt="room images" />
+                <span class="room-price">$ 40</span>
+              </div>
+              <div class="room-image">
+                <img src="assets/room5.png" alt="room images" />
+                <span class="room-price">$ 30</span>
+              </div>
+              <div class="room-image">
+                <img src="assets/room4.png" alt="room images" />
+                <span class="room-price">$ 40</span>
+              </div>
+              <div class="room-image">
+                <img src="assets/room5.png" alt="room images" />
+                <span class="room-price">$ 30</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <div class="contact-container-wrapper">
+        <div class="contact-us-container">
+          <div class="phone">
+            <span class="phone-no-heading">Phone Support</span>
+            <span class="phone-no">+01 234 567 890</span>
+          </div>
+          <div class="icons">
+            <span class="follow-us">Follow Us</span>
+            <div class="social-media-btns">
+              <img src="assets/fb.png" alt="fb logo" />
+              <img src="assets/google-plus.png" alt="google-plus logo" />
+              <img src="assets/twitter.png" alt="twitter logo" />
+              <img src="assets/skype.png" alt="skype logo" />
+            </div>
+          </div>
+          <div class="subscribe">
+            <span class="subscribe-us">Subscribe Us</span>
+            <div class="email-box">
+              <input type="email" id="email" placeholder="Email" />
+              <button class="submit">Subscribe</button>
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="room-container">
-        <div class="rooms">
-          <div class="room-image">
-            <img src="assets/room2.png" alt="room images">
-            <span class="room-price">$ 28</span>
-          </div>
-
-          <div class="room-image">
-            <img src="assets/room3.png" alt="room images">
-            <span class="room-price">$ 10</span>
-          </div>
-
-          <div class="room-image">
-            <img src="assets/room2.png" alt="room images">
-            <span class="room-price">$ 28</span>
-          </div>
-
-          <div class="room-image">
-            <img src="assets/room3.png" alt="room images">
-            <span class="room-price">$ 10</span>
-          </div>
-        </div>
-
-        <div class="rooms">
-          <div class="room-image">
-            <img src="assets/room4.png" alt="room images">
-            <span class="room-price">$ 40</span>
-          </div>
-
-          <div class="room-image">
-            <img src="assets/room5.png" alt="room images">
-            <span class="room-price">$ 30</span>
-          </div>
-
-          <div class="room-image">
-            <img src="assets/room4.png" alt="room images">
-            <span class="room-price">$ 40</span>
-          </div>
-
-          <div class="room-image">
-            <img src="assets/room5.png" alt="room images">
-            <span class="room-price">$ 30</span>
-          </div>
+      <div class="copyright-wrapper">
+        <div class="copyright">
+          <span>Copyright &copy;W-Hotels 2019</span>
         </div>
       </div>
-    </section>
-    <section class="contact-us-container">
-      <div class="phone">
-        <span class="phone-no-heading">Phone Support</span><br>
-        <span class="phone-no">+01 234 567 890</span>
-      </div>
-      <div class="icons">
-        <span class="follow-us">Follow Us</span><br>
-        <div class="social-media-btns">
-          <img src="assets/fb.png" alt="fb logo">
-          <img src="assets/google-plus.png" alt="google-plus logo">
-          <img src="assets/twitter.png" alt="twitter logo">
-          <img src="assets/skype.png" alt="skype logo">
-        </div>
-      </div>
-      <div class="subscribe">
-        <span class="subscribe-us">Subscribe Us</span><br>
-        <div class="email-box">
-          <input type="email" id="email" placeholder="Email">
-          <button class="submit">Subscribe</button>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <span>Copyright &copy;W-Hotels 2019</span>
-  </footer>
-</body>
-
+    </footer>
+  </body>
 </html>
