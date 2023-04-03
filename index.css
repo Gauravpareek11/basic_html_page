@@ -55,7 +55,7 @@ header {
 #banner {
   width: 100%;
 }
-.banner-container {
+#banner-container {
   position: relative;
 }
 .banner-text {
@@ -89,7 +89,7 @@ header {
 .availability-btn:hover {
   background-color: white;
 }
-.hotel-history {
+#hotel-history {
   display: flex;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -167,7 +167,8 @@ header {
   font-size: 1.5rem;
 }
 .book-now-button:hover {
-  background-color: black;
+  background-color: rgb(197, 193, 193);
+  color: black;
 }
 .room-container {
   display: flex;
@@ -190,6 +191,9 @@ header {
   width: 100%;
   box-shadow: 5px 5px 3px rgb(136, 135, 135);
 }
+.room-image img:hover {
+  box-shadow: 10px 10px 10px rgb(136, 135, 135);
+}
 .room-price {
   position: absolute;
   bottom: min(8.64px, 0.6vw);
@@ -197,7 +201,7 @@ header {
   font-size: min(28.8px, 2vw);
   font-weight: bold;
 }
-.contact-container-wrapper {
+#contact-container-wrapper {
   background-color: hsl(42deg 8% 53%);
 }
 .contact-us-container {
@@ -209,15 +213,21 @@ header {
 .phone {
   display: flex;
   flex-direction: column;
-  gap: 1.3rem;
+  gap: 1.5rem;
 }
-.phone span {
+/* .phone span {
   font-size: 2rem;
+} */
+.phone-no-heading {
+  font-size: 2rem;
+}
+.phone-no {
+  font-size: 1.5rem;
 }
 .icons {
   display: flex;
   flex-direction: column;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 .icons span {
   font-size: 2rem;
@@ -356,7 +366,7 @@ header {
   .banner-text p {
     font-size: 3vw;
   }
-  .hotel-history {
+  #hotel-history {
     flex-direction: column;
   }
   #history-image {
