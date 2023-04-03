@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="responsive.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Open%20Sans"
       rel="stylesheet"
@@ -16,22 +15,24 @@
     <div class="header-wrapper">
       <header>
         <div id="logo">
-          <img src="assets/logo.png" alt="logo" />
+          <a href="#banner-container"
+            ><img src="assets/logo.png" alt="logo"
+          /></a>
         </div>
         <nav>
           <input type="checkbox" id="checkbox-btn" />
           <label for="checkbox-btn" class="hamburger-icon">&#9776;</label>
           <ul class="nav-menu">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Rooms">Rooms</a></li>
-            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#banner-container">Home</a></li>
+            <li><a href="#hotel-history">About</a></li>
+            <li><a href="#best-rooms-container">Rooms</a></li>
+            <li><a href="#contact-container-wrapper">Contact</a></li>
           </ul>
         </nav>
       </header>
     </div>
     <main>
-      <section class="banner-container">
+      <section id="banner-container">
         <img id="banner" src="assets/banner.png" alt="banner image" />
         <div class="banner-text">
           <h2>W Hotel</h2>
@@ -42,7 +43,7 @@
         </div>
       </section>
       <section class="centre-container">
-        <section class="hotel-history">
+        <section id="hotel-history">
           <img
             id="history-image"
             src="assets/hotel-history.png"
@@ -59,7 +60,7 @@
             </p>
           </div>
         </section>
-        <section class="best-rooms-container">
+        <section id="best-rooms-container">
           <h2 id="best-room-heading">Our Best Rooms</h2>
           <div class="best-rooms">
             <div class="best-rooms-1">
@@ -125,7 +126,7 @@
       </section>
     </main>
     <footer>
-      <div class="contact-container-wrapper">
+      <div id="contact-container-wrapper">
         <div class="contact-us-container">
           <div class="phone">
             <span class="phone-no-heading">Phone Support</span>
@@ -134,10 +135,18 @@
           <div class="icons">
             <span class="follow-us">Follow Us</span>
             <div class="social-media-btns">
-              <img src="assets/fb.png" alt="fb logo" />
-              <img src="assets/google-plus.png" alt="google-plus logo" />
-              <img src="assets/twitter.png" alt="twitter logo" />
-              <img src="assets/skype.png" alt="skype logo" />
+              <a href="https://www.facebook.com/"
+                ><img src="assets/fb.png" alt="fb logo"
+              /></a>
+              <a href="https://www.google.com/"
+                ><img src="assets/google-plus.png" alt="google-plus logo"
+              /></a>
+              <a href="https://twitter.com/"
+                ><img src="assets/twitter.png" alt="twitter logo"
+              /></a>
+              <a href="https://www.skype.com/en/"
+                ><img src="assets/skype.png" alt="skype logo"
+              /></a>
             </div>
           </div>
           <div class="subscribe">
