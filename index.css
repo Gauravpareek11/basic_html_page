@@ -6,7 +6,6 @@
 .header-wrapper {
   top: 0;
   background-color: white;
-  position: sticky;
   z-index: 3;
 }
 header {
@@ -215,14 +214,15 @@ header {
   flex-direction: column;
   gap: 1.5rem;
 }
-/* .phone span {
-  font-size: 2rem;
-} */
 .phone-no-heading {
   font-size: 2rem;
 }
 .phone-no {
   font-size: 1.5rem;
+}
+.phone-no a{
+  text-decoration: none;
+  color: black;
 }
 .icons {
   display: flex;
